@@ -1,0 +1,33 @@
+{
+	"info": {
+		"_postman_id": "8fcb96a3-ab9b-49d2-b172-6fe0b504e256",
+		"name": "Github Proxy API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET repos from an Username",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9000/api/github/user/nubank/repos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"api",
+						"github",
+						"user",
+						"nubank",
+						"repos"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

@@ -1,0 +1,6 @@
+com/duberton/github/App.class
+com/duberton/github/client/GithubClient.class
+com/duberton/github/module/AppModule.class
+com/duberton/github/resource/GithubResource.class
+com/duberton/github/AppConfiguration.class
+com/duberton/github/service/GithubService.class
