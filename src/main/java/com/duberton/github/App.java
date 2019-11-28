@@ -20,6 +20,7 @@ public class App extends Application<AppConfiguration> {
   @Override
   public void initialize(Bootstrap<AppConfiguration> bootstrap) {
     GuiceBundle<Configuration> guiceBundle = GuiceBundle.builder()
+        .enableAutoConfig(App.class.getPackage().getName())
         .modules(new AppModule())
         .build();
     bootstrap.addBundle(guiceBundle);
