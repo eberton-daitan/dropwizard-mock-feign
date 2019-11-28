@@ -13,7 +13,7 @@ Returns all the public repos from the specified username
 #### Notes
 
 - There's a Postman collection in the ```./etc``` directory
-- Github has a rate limit of 50 requests per not-authorized user, so in case the API starts returning errors it might be related to it
+- Github has a rate limit of 50 requests per not-authorized user, so in case the API starts returning errors it might be related to this
 - The workaround for the above scenario is to perform the requests using Basic Authentication (which will be deprecated soon):
 
 **UserClient.java**
