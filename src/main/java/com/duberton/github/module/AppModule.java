@@ -15,7 +15,6 @@ public class AppModule implements Module, ConfigurationAwareModule<AppConfigurat
 
   @Override
   public void configure(Binder binder) {
-    // no op for now
   }
 
   @Override

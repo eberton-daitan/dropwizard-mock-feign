@@ -20,7 +20,7 @@ public class GithubService {
   public UserVo getReposFromUser(final String username) {
     List<Repository> repositories = userClient.reposFromUser(username);
     List<RepositoryVo> repositoryVos = RepositoryMapper.mapDomainListToVo(repositories);
-    return UserVo.newBuilder().withRepositories(repositoryVos).build();
+    return UserVo.newBuilder().withUsername(username).withRepositories(repositoryVos).build();
   }
 
 }
